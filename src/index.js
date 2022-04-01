@@ -1,22 +1,45 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
+import './styles.css'
 const App = () =>{
-    const elem1 = ()=> {
-        return (
-            {  margin:'auto',
-                    width:'768',
-                    backgroudColor: '#EEE',
-                    padding:12,
-                    borderRadius:8
-            }
-        )
+
+    const elem = ()=> {
+        const styleElem1= {
+                margin:'auto',
+                width:768,
+                backgroudColor: '#EEE',
+                padding:12,
+                borderRadius:8,
+                textAlign: 'center'
+        }
+        return styleElem1
     }
 
     return(
-    <div style={elem1}>
-        <h3 >Profissionais de Saude</h3>
-        <div></div>
+    <div style={elem()}>
+        <h3>Profissionais de Saude</h3>
+        
+        <div style={{       
+            margin:'auto',
+            width:768,
+            backgroudColor: '#EEE',
+            padding:12,
+            borderRadius:8       
+        }}>
+            <div style={{
+            margin:'auto',
+            width:'768',
+            backgroundColor: '#EEE',
+            padding: 12,
+            borderRadius:8,
+            }}>
+                <div className='banner'>
+                    
+                </div>
+                <div className='banner'></div>
+                <div className='banner'></div>
+            </div>
+        </div>
     </div>
     )
 }

@@ -2,3 +2,11 @@
     font-size:18px;
     color: blueviolet;
 }
+
+.banner{
+    color: blueviolet;
+    margin-top: 12;
+    padding-top: 8; 
+    padding-bottom: 8;
+    border-Style:hidden;
+}
